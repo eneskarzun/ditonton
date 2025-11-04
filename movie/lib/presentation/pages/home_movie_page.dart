@@ -56,7 +56,6 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
               leading: Icon(Icons.tv),
               title: Text('Tv'),
               onTap: () {
-                FirebaseCrashlytics.instance.crash();
                 Navigator.pushNamed(context, HOME_TV_ROUTE);
               },
             ),
