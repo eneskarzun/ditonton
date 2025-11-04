@@ -59,7 +59,7 @@ class _WatchlistTvPageState extends State<WatchlistTvPage> with RouteAware {
                 child: Text(state.message),
               );
             } else {
-              return Expanded(child: Container());
+              return Container();
             }
           },
         ),

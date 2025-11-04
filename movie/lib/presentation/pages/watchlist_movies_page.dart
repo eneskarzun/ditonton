@@ -61,7 +61,7 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
                 child: Text(state.message),
               );
             } else {
-              return Expanded(child: Container());
+              return Container();
             }
           },
         ),
